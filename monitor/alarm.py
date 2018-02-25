@@ -65,7 +65,7 @@ while True:
             else:
                 var_msg = var
 
-            msg = {'amount_msg': amount_msg, 'upper_msg': upper_msg, 'lower_msg': lower_msg, 'span_msg', span_msg, 'var_msg': var_msg}
+            msg = {'amount_msg': amount_msg, 'upper_msg': upper_msg, 'lower_msg': lower_msg, 'span_msg': span_msg, 'var_msg': var_msg}
 
             if sgn > 0:
                 itchat.send_msg(msg=json.dumps(msg), toUserName='muzhen')

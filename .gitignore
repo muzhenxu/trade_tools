@@ -1,1 +1,3 @@
 monitor/rest_api/Utils.py
+*.pyc
+*.png

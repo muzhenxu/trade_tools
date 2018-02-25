@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import time
 
-itchat.auto_login(hotReload=True)
+itchat.auto_login(hotReload=True, enableCmdQR=2)
 
 xh_symbol = ['btcusdt']
 xh_period = ['5min']

@@ -45,7 +45,7 @@ while True:
                 upper_msg = f'{symbol} {period} high price is over {upper}'
                 sgn += 1
             else:
-                amount_msg = upper
+                upper_msg = upper
 
             if lower <= lower_threshold:
                 lower_msg = f'{symbol} {period} low price reaches {lower}'
